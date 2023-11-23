@@ -40,7 +40,7 @@ export default {
 </script>
 
 <template>
-  <header>
+  <header class="container">
     <div class="logo">
       <img src="../assets/img/dc-logo.png" alt="DC" />
     </div>
