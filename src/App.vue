@@ -2,12 +2,14 @@
 import appHeader from "./components/appHeader.vue";
 import appMain from "./components/appMain.vue";
 import banner from "./components/banner.vue";
+import footerTop from "./components/footerTop.vue"
 
 export default {
   components: {
     appHeader,
     appMain,
-    banner,    
+    banner, 
+    footerTop   
   },
 };
 </script>
@@ -17,6 +19,7 @@ export default {
   <appHeader />
   <appMain />
   <banner />
+  <footerTop />
 
   
  
