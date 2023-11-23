@@ -9,20 +9,19 @@ export default {
 </script>
 
 <template>
-  <main>
-    <div class="container">
-      <h2> --&gt; content goes here &lt;-- </h2>
+    <div class="banner">
+    
     </div>
-  </main>
 </template>
 
 <style scoped lang="scss">
 @use "../style/partials/mixin" as *;
 @use "../style/partials/variables" as *;
-main { 
-  background-color: black;
-  color: white;
-  padding: 2rem 0;
+.banner {
+    height: 120px;
+    background-color: $primary;
 }
+
+
 
 </style>
