@@ -8,9 +8,9 @@ import appFooterBottom from "./components/appFooterBottom.vue";
 
 export default {
   components: {
-    appHeader,
-    appMain,
+    appHeader,    
     appJumbotron,
+    appMain,
     appBanner, 
     appFooterTop,
     appFooterBottom  
@@ -20,9 +20,9 @@ export default {
 
 <template>
   
-  <appHeader />
-  <appMain />
+  <appHeader />  
   <appJumbotron />
+  <appMain />
   <appBanner />
   <appFooterTop />
   <appFooterBottom />
