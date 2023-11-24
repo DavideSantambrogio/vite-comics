@@ -66,6 +66,9 @@ a {
     color: white;
     text-decoration: none;
     font-size: 0.5rem;
+    &:hover {
+      text-decoration: underline;
+    }
 }
 
 li {

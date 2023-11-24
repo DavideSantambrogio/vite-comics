@@ -89,7 +89,7 @@ button {
     border: 2px solid $primary;
     padding: 0.7rem;
     color: white;
-
+    cursor: pointer;
 }
 
 

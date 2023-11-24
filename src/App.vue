@@ -1,17 +1,19 @@
 <script>
 import appHeader from "./components/appHeader.vue";
+import appJumbotron from "./components/appJumbotron.vue";
 import appMain from "./components/appMain.vue";
-import banner from "./components/banner.vue";
-import footerTop from "./components/footerTop.vue";
-import footerBottom from "./components/footerBottom.vue";
+import appBanner from "./components/appBanner.vue";
+import appFooterTop from "./components/appFooterTop.vue";
+import appFooterBottom from "./components/appFooterBottom.vue";
 
 export default {
   components: {
     appHeader,
     appMain,
-    banner, 
-    footerTop,
-    footerBottom  
+    appJumbotron,
+    appBanner, 
+    appFooterTop,
+    appFooterBottom  
   },
 };
 </script>
@@ -20,9 +22,10 @@ export default {
   
   <appHeader />
   <appMain />
-  <banner />
-  <footerTop />
-  <footerBottom />
+  <appJumbotron />
+  <appBanner />
+  <appFooterTop />
+  <appFooterBottom />
 
   
  
